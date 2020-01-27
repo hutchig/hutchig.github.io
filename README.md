@@ -1,6 +1,6 @@
 ## Welcome to GitHub Pages
 
-This site will be published at [Gordon's github pages playground](https://hutchig.github.io/)
+This site will be published at [https://hutchig.github.io/](https://hutchig.github.io/)
 
 You can use the [editor on GitHub](https://github.com/hutchig/hutchig.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
