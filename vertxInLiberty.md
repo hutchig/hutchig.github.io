@@ -10,7 +10,11 @@ high quality implementations.
 For MicroProfile specifications a good resource is the [SmallRye project](https://smallrye.io/) which
 OpenLiberty uses to implement a number of features. SmallRye Reactive Messaging is looking to make more use of
 [Vert.x](https://vertx.io/) via [#423](https://github.com/smallrye/smallrye-reactive-messaging/issues/423) and
-OpenLiberty is looking to make more use of SmallRye via [#10813](https://github.com/OpenLiberty/open-liberty/issues/10813)
+OpenLiberty is looking to make more use of SmallRye via [#10813](https://github.com/OpenLiberty/open-liberty/issues/10813).
+If both these directions pan out then this would put a live instance of Vert.x, and thus Netty, into Liberty.
+
+That has potentially many implications for issues such as threading, contexts, memory use, TCP/IP port usage
+and so on.
 
 If we want to explore converging OpenLiberty towards a common codebase with SmallRye, Quarkus and Vert.x/Netty then
 we need to take a close look at what this means in detail and what actions, if any, we want to take
